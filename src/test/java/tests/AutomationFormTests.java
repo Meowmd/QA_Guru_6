@@ -17,7 +17,7 @@ public class AutomationFormTests extends TestBase {
                 .setDateOfBirth(testData.month, testData.year, testData.day)
                 .setHobbies(testData.hobby)
                 .setSubject(testData.subject)
-                .uploadFile("1.png")
+                .uploadFile("src/test/resources/img/1.png")
                 .setAddress(testData.address)
                 .setState(testData.state)
                 .setCity(testData.city)
