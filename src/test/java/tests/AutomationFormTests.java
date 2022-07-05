@@ -32,7 +32,5 @@ public class AutomationFormTests extends TestBase {
                 .checkResult("Picture", testData.picture)
                 .checkResult("Address", testData.address)
                 .checkResult("State and City", testData.state + " " + testData.city);
-
-
     }
 }
